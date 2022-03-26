@@ -15,6 +15,10 @@ namespace modul5_1302204060
             a.PrintVideoDetails();
             a.IncreasePlayCount(2);
             a.PrintVideoDetails();
+
+            SayaTubeUser b = new SayaTubeUser("he he he ha!");  
+            b.GetTotalVideoplayCount();
+            b.PrintAllvideoplayCount();
         }
     }
 
